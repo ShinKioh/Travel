@@ -8,33 +8,75 @@
     <!-- <h3 onclick="defaultToggle()">경주 숙소</button> -->
   </div>
   <div id="defaultToggle" style="display: block">
-    <div style="display: flex">
-      <button style="margin-right: 5px" type="button" name="리버틴 호텔 경주" onclick="RivertainHotel()">리버틴 호텔 경주</button>
-      <p style="margin: 0px">황리단길까지 도보 17분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button style="margin-right: 5px" type="button" name="지지 호텔" onclick="GGHotel()">지지 호텔</button>
-      <p style="margin: 0px">황리단길까지 도보 12분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button style="margin-right: 5px" type="button" name="덴바스타 헤리티지 호텔" onclick="DenbastaHeritageHotel()">덴바스타 헤리티지 호텔</button>
-      <p style="margin: 0px">황리단길까지 도보 14분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button style="margin-right: 5px" type="button" name="신라 부티크 호텔" onclick="SillaBoutiqueHotel()">신라 부티크 호텔</button>
-      <p style="margin: 0px">황리단길까지 도보 20분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button type="button" name="슈가 호텔" onclick="SugarHotel()">슈가 호텔</button>
-      <p style="margin: 0px">황리단길까지 도보 18분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button style="margin-right: 5px" type="button" name="포베르타 스테이" onclick="PovertaStay()">포베르타 스테이</button>
-      <p style="margin: 0px">황리단길까지 도보 13분</p>
-    </div>
-    <div style="display: flex; margin-top: 10px">
-      <button style="margin-right: 5px" type="button" name="엘리건스 호텔" onclick="EleganceHotel()">엘리건스 호텔</button>
-      <p style="margin: 0px">황리단길까지 도보 23분</p>
-    </div>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr style="background-color: #152553; color: white">
+          <th>호텔명</th>
+          <th>5일(화)</th>
+          <th>6일(수)</th>
+          <th>황리단길 도보 거리</th>
+          <th>예정 소요 시간</th>
+          <th>선택</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>리버틴 호텔 경주</td>
+          <td>97,650원</td>
+          <td>97,327원</td>
+          <td>17분</td>
+          <td>1시간 11분</td>
+          <td><button type="button" onclick="RivertainHotel()">선택</button></td>
+        </tr>
+        <tr>
+          <td>지지 호텔</td>
+          <td>114,620원</td>
+          <td>142,453원</td>
+          <td>12분</td>
+          <td>1시간 11분</td>
+          <td><button type="button" onclick="GGHotel()">선택</button></td>
+        </tr>
+        <tr>
+          <td>덴바스타 헤리티지 호텔</td>
+          <td>98,912원</td>
+          <td>98,926원</td>
+          <td>14분</td>
+          <td>1시간 11분</td>
+          <td><button type="button" onclick="DenbastaHeritageHotel()">선택</button></td>
+        </tr>
+        <tr>
+          <td>신라 부티크 호텔</td>
+          <td>112,937원</td>
+          <td>113,043원</td>
+          <td>20분</td>
+          <td>1시간 12분</td>
+          <td><button type="button" onclick="SillaBoutiqueHotel()">선택</button></td>
+        </tr>
+        <tr>
+          <td>슈가 호텔</td>
+          <td>59,998원</td>
+          <td>60,007원</td>
+          <td>18분</td>
+          <td>1시간 11분</td>
+          <td><button type="button" onclick="SugarHotel()">선택</button></td>
+        </tr>
+        <tr>
+          <td>포베르타 스테이</td>
+          <td>105,844원</td>
+          <td>100,096원</td>
+          <td>13분</td>
+          <td>1시간 13분</td>
+          <td><button type="button" onclick="PovertaStay()">선택</button></td>
+        </tr>
+        <tr>
+          <td>엘리건스 호텔</td>
+          <td>84,859원</td>
+          <td>84,871원</td>
+          <td>23분</td>
+          <td>1시간 13분</td>
+          <td><button type="button" onclick="EleganceHotel()">선택</button></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </body>
