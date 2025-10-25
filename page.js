@@ -40,6 +40,32 @@ function EleganceHotel() {
   );
 }
 
-function test() {
-  window.open('');
+function a() {
+  window.open(
+    'https://map.naver.com/p/search/%EB%B9%8C%EB%9D%BC%EC%86%8C%ED%8B%B0A/place/2092454093?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510251741&locale=ko&svcName=map_pcv5&searchText=%EB%B9%8C%EB%9D%BC%EC%86%8C%ED%8B%B0A&businessCategory=pension'
+  );
+}
+
+function b() {
+  window.open(
+    'https://map.naver.com/p/search/%EC%8B%AD%EC%9D%B4%EC%9B%94%EC%8A%A4%ED%85%8C%EC%9D%B4/place/1499322856?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510251742&locale=ko&svcName=map_pcv5&searchText=%EC%8B%AD%EC%9D%B4%EC%9B%94%EC%8A%A4%ED%85%8C%EC%9D%B4&businessCategory=pension'
+  );
+}
+
+function c() {
+  window.open(
+    'https://map.naver.com/p/search/%EC%9C%A8%ED%8F%AC%EC%94%A8/place/1704327954?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510251746&locale=ko&svcName=map_pcv5&searchText=%EC%9C%A8%ED%8F%AC%EC%94%A8&businessCategory=pension'
+  );
+}
+
+function d() {
+  window.open(
+    'https://map.naver.com/p/entry/place/1336162936?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510251746&locale=ko&svcName=map_pcv5&businessCategory=pension'
+  );
+}
+
+function e() {
+  window.open(
+    'https://map.naver.com/p/entry/place/1630861480?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510251746&locale=ko&svcName=map_pcv5&businessCategory=pension&fromPanelNum=1&additionalHeight=76&timestamp=202510251746&locale=ko&svcName=map_pcv5&businessCategory=pension&reviewItem=5267412'
+  );
 }
